@@ -27,15 +27,30 @@ p{
     overflow: hidden;
     padding: 0 1rem;
 }
-.btn{
-    cursor: pointer;
+.btn{   
+    margin-top: 2rem;
     display: inline-block;
-    padding: 10px 30px;
+    padding: 13px 35px;
+    font-size: 18px;
     color: #00343d;
     background-color: #ffffff;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;    
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.45);
 }
+.btn:hover{
+    color: #ffffff;
+    background: #00343d;
+}
+.btn-green{
+
+}
+.btn-light{
+
+}
+
 .bg-light{
     color: #00343d;
     background: #ffffff;
@@ -76,10 +91,6 @@ p{
 }
 #navbar ul a.current{
     font-weight: bold;
-}
-
-#navbar ul a:hover{
-    border-bottom: 2px #00343d solid;
 }
 
 .header-content{
