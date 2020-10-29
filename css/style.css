@@ -1,6 +1,28 @@
 @font-face {
   font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Regular.otf") format("opentype");
+  src: local("GT Walsheim Regular"), local("GTWalsheim-Regular"),
+    url("../fonts/GTWalsheim-regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: local("GT Walsheim Medium"), local("GTWalsheim-Medium"),
+    url("../fonts/GTWalsheim-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "GT Walsheim";
+  src: local("GT Walsheim Bold"), local("GTWalsheimBold"),
+    url("../fonts/GTWalsheimBold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
@@ -54,7 +76,7 @@ a {
   cursor: pointer;
   text-decoration: none;
   transition: 0.25s;
-  margin-top: 1.5rem;
+  margin-top: 40.75px;
   box-shadow: 0px 1px 2px 0px rgba(0, 52, 61, 0.44);
 }
 
@@ -126,10 +148,10 @@ a {
 }
 
 /* Header */
-#header {
-  background: url(../img/Mask.svg) no-repeat center/cover;
+.header {
+  background: url(../img/mask.svg) no-repeat center/cover;
   width: 1440;
-  height: 680px;
+  height: 700px;
   position: relative;
 }
 
@@ -144,8 +166,8 @@ a {
 
 .header-content .title .title-content {
   display: inline-block;
-  font-size: 62px;
-  line-height: 60px;
+  font-size: 60px;
+  line-height: 58px;
   font-weight: bold;
   letter-spacing: -1px;
   color: #00343d;
@@ -156,9 +178,10 @@ a {
   display: inline-block;
   padding-top: 25px;
   width: 550px;
+  padding-right: 10px;
 }
 
-/* ******** */
+/* ***screen*** */
 @media (max-width: 1024px) {
   .navbar {
     display: flex;
