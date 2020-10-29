@@ -1,6 +1,6 @@
 @font-face {
   font-family: "GT Walsheim";
-  src: url("../fonts/GT-Walsheim-Regular.otf");
+  src: url("../fonts/GT-Walsheim-Regular.otf") format("opentype");
 }
 
 * {
