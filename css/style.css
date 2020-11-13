@@ -354,6 +354,7 @@ a {
 .button {
   text-align: center;
   justify-content: center;
+  margin-bottom: 6rem;
 }
 
 .btn-green {
@@ -364,6 +365,10 @@ a {
 .btn-green:hover {
   color: #ffffff;
   background: #0bd8a2;
+}
+
+.border {
+  border-bottom: 1px solid #d5d5d5;
 }
 
 /* ***screen*** */
