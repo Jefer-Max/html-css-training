@@ -1,16 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Koombea Website</title>
-</head>
-<h1>Koombea</h1>
+  </head>
 
-<body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <input type="checkbox" id="check" class="check" />
+        <nav class="navbar navbar-top">
+          <label for="check" class="checkbtn">
+            <img src="img/logo/menu.svg" alt="logo hamburguer menu" />
+          </label>
+          <a href="#" class="logo"
+            ><img src="img/logo/logo-koombea.svg" alt="logo koombea"
+          /></a>
+          <a href="#" class="logo-responsive"
+            ><img
+              src="img/logo/logo-responsive.svg"
+              alt="logo koombea responsive"
+          /></a>
+          <ul class="navbar-list">
+            <li class="list"><a href="#" class="list-link active">Home</a></li>
+            <li class="list"><a href="#" class="list-link">About</a></li>
+            <li class="list"><a href="#" class="list-link">Services</a></li>
+            <li class="list"><a href="#" class="list-link">Our Work</a></li>
+            <li class="list"><a href="#" class="list-link">Blog</a></li>
+            <li class="list"><a href="#" class="list-link">Careers</a></li>
+            <li class="list link-responsive">
+              <a href="#" class="button--small">Contact</a>
+            </li>
+          </ul>
+          <a href="#"
+            ><img src="img/phone/phone.svg" class="phone" alt="logo phone" />
+          </a>
+        </nav>
+        <div class="header-content">
+          <div class="title">
+            <h1 class="title-content">
+              The Leading Mobile & Web App Development Partner
+            </h1>
+            <a href="#" class="btn">GET IN TOUCH</a>
+          </div>
+          <div class="content-img">
+            <img src="img/home.png" class="img-header" alt="image" />
+          </div>
+        </div>
+      </div>
+    </header>
 
-</body>
+    <section class="first-section">
+      <div class="container">
+        <h3 class="title-section">What We Do</h3>
+        <div class="lead-container">
+          <p class="lead">
+            We bring your app ideas to reality.
+            <br />
+            We stand out for our top web and mobile app development skills but
+            we are much more than that, we are a genuine strategic business
+            partner.
+          </p>
+        </div>
+        <div class="line">
+          <h2 class="title-content-section">
+            End-to-end Application Development
+          </h2>
+        </div>
+        <div class="info">
+          <div class="solutions flex-columns flex-reverse">
+            <div class="row">
+              <div class="column">
+                <div class="column-1">
+                  <h3 class="title-section col2">
+                    You Manage The Business, We Handle The Application
+                  </h3>
+                  <p class="lead col2">
+                    We cover all the bits and pieces needed to develop a
+                    top-notch, innovative product, from strategy, to native
+                    apps, to the backend services. We code to very high
+                    standards and test continuously, which creates easy to
+                    maintain, high quality products.
+                  </p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="column-2">
+                  <img class="image" src="img/image_1_section_1.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <div class="solutions flex-columns">
+            <div class="row">
+              <div class="column">
+                <div class="column-1">
+                  <h3 class="title-section col2">Mobile, Web & Enterprise</h3>
+                  <ul class="section-list">
+                    <li class="list-section">Product strategy and planning</li>
+                    <li class="list-section">UX/UI design</li>
+                    <li class="list-section">
+                      Native iOS & Android app development
+                    </li>
+                    <li class="list-section">
+                      Backend server and architecture buildout
+                    </li>
+                    <li class="list-section">IoT and wearables</li>
+                    <li class="list-section">Gaming</li>
+                    <li class="list-section">Hybrid app development</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="column">
+                <div class="column-2">
+                  <img
+                    class="image-list"
+                    src="img/image_2_section_1.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button">
+            <a href="#" class="btn btn--green">GET IN TOUCH</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="border"></div>
+  </body>
 </html>
